@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#Add movie data
+# Add movie data
 toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life",
                         "http://www.impawards.com/1995/posters/toy_story_ver1_xlg.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
@@ -21,8 +21,8 @@ district9 = media.Movie("District 9", "A realistic look of how humanity might in
                         "http://img.moviepostershop.com/district-9-movie-poster-2009-1020502468.jpg",
                         "https://www.youtube.com/watch?v=DyLUwOcR5pk")
 
-#List movies to display
+# List movies to display
 movies = [toy_story, avatar, crash, guardians, interstellar, district9]
 
-#Launch website
+# Launch website
 fresh_tomatoes.open_movies_page(movies)
